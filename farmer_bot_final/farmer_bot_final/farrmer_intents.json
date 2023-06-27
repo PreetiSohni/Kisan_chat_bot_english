@@ -1,0 +1,106 @@
+{"intents": [
+        {"tag": "greet",
+         "patterns": ["hey",
+                    "hello",
+                    "hi",
+                    "good morning",
+                    "good evening",
+                    "hey there"],
+         "responses": ["Hey! How may I assist you?"],
+         "context_set": ""
+        },
+        {"tag": "Exit",
+         "patterns": ["thank you", 
+                      "thanks", 
+                      "cya",
+                      "see you",
+                      "later", 
+                      "see you later", 
+                      "goodbye", 
+                      "i am leaving", 
+                      "have a Good day",
+                      "you helped me",
+                      "thanks a lot",
+                      "thanks a ton",
+                      "you are the best",
+                      "great help",
+                      "too good",
+                      "you are a good learning buddy"],
+         "responses": ["I hope I was able to assist you, Good Bye"],
+         "context_set": ""
+        },
+        {"tag": "soya bean mosaic virus",
+         "patterns": ["How do you control the soya bean mosaic virus?",
+                    "tell me about soya bean mosaic virus",
+                    "what is soya bean mosaic virus?",
+                    "what is mosaic virus?"
+                    ],
+         "responses": ["Soybean mosaic is caused by the potyvirus Soybean mosaic virus.It can cause yield loss,affect seed quality, and reduce seed germination and nodulation.To control soyabean mosaic: Use healthy/certified seeds,Keep the field free from weeds, Rogue out infected plants and burn them, Two foliar sprays of Thiamethoxam 25 WG @ 100 g/ha or Methyl demeton 800 ml/ha at 30 and 45 days after sowing to control the vector."],
+         
+         "context_set": ""
+        },
+        {"tag": "symptoms",
+         "patterns": ["What are the symptoms of it?",
+                    "what are its symptoms?",
+                    "how to verify that plants are suffering from mosaic virus any specific symptoms?"],
+          "responses": ["Irregular leaf mottling, Leaf distortion, Veins lighter than normal. Mosaic symptoms are variable but commonly include irregular leaf mottling (light and dark green or yellow patches or streaks). Leaves are commonly stunted, curled, or puckered; veins may be lighter than normal or banded with dark green or yellow."],
+         "context_set": ""
+        },
+    
+        {"tag": "concern",
+         "patterns": ["what is the right way to store soyabean seeds?",
+                    "how can I store the soyabean seeds?"],
+         "responses": ["For winter storage, store commercial soybeans at 13% moisture or less. Soybeans with less than 15% moisture can be dried with bin fans. Soybean seed stored over one planting season should be 12% moisture or less. Store carryover seed at 10% moisture or less."],
+         "context_set": ""
+        },
+        
+        {"tag": "prevention",
+         "patterns": ["How do you control soybean pests?",
+                    "What are the steps to prevent plants ?",
+                    "Can you tell me how should I protect the plants from various diseases?"
+                    ],
+         "responses": ["There are several strategies that can be used to control soybean pests. Some of these include, Intercropping soybean with other crops such as pigeon pea, maize or sorghum. Collecting and destroying infested plant parts, egg masses and young larvae. Weed control to reduce alternate hosts of soybean stem borers. Using trap crops such as sunflowers to protect adjacent soybean fields Biological control by natural enemies parasitizes the larvae."],
+         "context_set": ""
+        },
+    
+       {"tag": "control measures",
+         "patterns": ["What about the control measures?",
+                    "what pesticides should I use to prevent plants from diseases?"
+                    ],
+         "responses": ["Baythroid® XL. Bayer's Baythroid XL insecticide is the complete pyrethroid for many crops, and offers fast, effective control of pests in corn, soybeans, cotton and wheat."],
+         "context_set": ""
+        },
+
+
+     {"tag": "climate",
+        "patterns": ["What is the ideal climate for growing soybeans?",
+                    "What is the right climate for growing soyabeans?",
+                    "Is there any time period for growing soyabean plants?"
+                   ],
+        "responses": ["Soybean grows well in warm and moist climate. A temperature of 26 to 30°C appears to be the optimum for most of the varieties. Soil temperatures of 15.5°C or above favor rapid germination and vigorous seedling growth. A lower temperature tends to delay the flowering."],
+        "context_set": ""  
+     },
+
+     {"tag": "bot_challenge",
+       "patterns": ["are you a bot?",
+                    "are you a human?",
+                    "am I talking to a bot?",
+                    "am I talking to a human?"
+                  ],
+       "responses": ["I am a KisanBot."],
+       "context_set": ""
+     },
+
+     {"tag": "goodbye",
+       "patterns": ["bye",
+                    "goodbye",
+                    "see you around",
+                    "see you later"
+                  ],
+       "responses": ["Bye"],
+       "context_set": ""
+     }
+     
+       
+   ]
+}
